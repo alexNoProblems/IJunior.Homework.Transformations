@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Scaling : MonoBehaviour
+public class Scaler : MonoBehaviour
 {
     [SerializeField] private float _scaleSpeed;
     [SerializeField] private float _maxScaleSize;

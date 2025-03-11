@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingForward : MonoBehaviour
+public class MovierForward : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _distance;
