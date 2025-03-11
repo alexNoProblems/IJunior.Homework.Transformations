@@ -789,6 +789,9 @@ GameObject:
   - component: {fileID: 1992739347}
   - component: {fileID: 1992739346}
   - component: {fileID: 1992739345}
+  - component: {fileID: 1992739351}
+  - component: {fileID: 1992739350}
+  - component: {fileID: 1992739349}
   - component: {fileID: 1992739344}
   m_Layer: 0
   m_Name: Cube 2
@@ -835,6 +838,9 @@ MonoBehaviour:
   _scaleSpeed: 2
   _moveDistance: 2
   _scaleAmount: 2
+  _startPosition: {x: 0, y: 0, z: 0}
+  _startScale: {x: 0, y: 0, z: 0}
+  _time: 0
 --- !u!23 &1992739346
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -900,3 +906,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1992739349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992739343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf0716e016dd4224bdad132a7c02207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleSpeed: 1
+  _maxScaleSize: 2
+  _minScaleSize: 1
+--- !u!114 &1992739350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992739343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766f99d8623194060bc52dfe5bdae838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 150
+--- !u!114 &1992739351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992739343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c90660a01ebc4d039cc3701607e613d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 4
+  _distance: 5
